@@ -44,7 +44,7 @@ def process(input_file_path: Path, output_dir_path: Path):
     return True
 
 # Parse command-line parameters
-parser = argparse.ArgumentParser(description='Split a PDF file into half pages')
+parser = argparse.ArgumentParser(description='Convert PDF file into image files')
 parser.add_argument('input_path', type=Path, help='path to the input PDF file or directory')
 args = parser.parse_args()
 
